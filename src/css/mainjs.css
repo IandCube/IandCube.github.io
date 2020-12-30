@@ -11,6 +11,10 @@ body.is-menu-visible #menu {
     color: black;
     background-color: #16c3c34f;
     z-index: inherit 3;
+    position:absolute;
+    right:0px;
+    top:0px;
+    
 }
 
 .close {

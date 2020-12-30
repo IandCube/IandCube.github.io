@@ -205,7 +205,7 @@ small {
 .btn {
   border-radius: 0;
   padding: 13px 40px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .btn-primary {
@@ -278,7 +278,7 @@ small {
   max-width: 1230px;
   margin-left: auto;
   margin-right: auto;
-  flex-direction:;
+  flex-direction;
 }
 
 .tm-call-to-action-image {
@@ -319,7 +319,7 @@ p {
 }
 
 .btn-secondary {
-  background-color: #0299CC;
+  background-color:#5c5d5f;
   border: none;
   padding: 10px 50px;
 }

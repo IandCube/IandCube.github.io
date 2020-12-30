@@ -167,7 +167,7 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #6c757d;
     text-decoration: none;
     background-color: transparent
 }
@@ -2568,8 +2568,8 @@ textarea.form-control.is-invalid {
 
 .custom-control-input.is-invalid:checked~.custom-control-label::before,
 .was-validated .custom-control-input:invalid:checked~.custom-control-label::before {
-    border-color: #e4606d;
-    background-color: #e4606d
+    border-color: #fff;
+    background-color: #fff
 }
 
 .custom-control-input.is-invalid:focus~.custom-control-label::before,
@@ -2921,14 +2921,14 @@ fieldset:disabled a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color:#00686899;
+    border-color: #f8f9fa
 }
 
 .btn-danger:hover {
     color: #fff;
-    background-color: #c82333;
-    border-color: #bd2130
+    background-color: #00686899;
+    border-color: #f8f9fa
 }
 
 .btn-danger.focus,
@@ -2939,16 +2939,16 @@ fieldset:disabled a.btn {
 .btn-danger.disabled,
 .btn-danger:disabled {
     color: #fff;
-    background-color: #dc3545;
-    border-color: #dc3545
+    background-color: #00686899;
+    border-color: #f8f9fa
 }
 
 .btn-danger:not(:disabled):not(.disabled).active,
 .btn-danger:not(:disabled):not(.disabled):active,
 .show>.btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #bd2130;
-    border-color: #b21f2d
+    background-color: #f8f9fa;
+    border-color:#f8f9fa
 }
 
 .btn-danger:not(:disabled):not(.disabled).active:focus,
@@ -10990,6 +10990,7 @@ a.text-light:hover {
 }
 
 .text-dark {
+    -webkit-text-stroke: 2px #35d0d0;
     color: #343a40 !important
 }
 
